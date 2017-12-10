@@ -7,8 +7,6 @@ sense = SenseHat()
 # Fix display orientation if neccessary
 sense.set_rotation(180)
 
-continueRunning = True
-
 # Create a function to load an image
 def imageLoader():
     # Get the image name and/or path from user (example: santa.png)
