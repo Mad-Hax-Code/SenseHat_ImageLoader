@@ -14,6 +14,6 @@ sense.set_rotation(180)
 # Press Ctrl+C to quit the application
 while(True):
     # Get the image name and/or path from user (example: santa.png)
-    image_path = input("Enter image name/path: ")
+    image_path = "images/" + input("Enter image name/path: ")
     # Load the desired image into the sense hat LED matrix
     sense.load_image(image_path)
