@@ -1,6 +1,6 @@
 # import sense_hat module
 from sense_hat import SenseHat
-import time
+
 # Create an instance (object) of the SenseHat() class called 'sense'
 sense = SenseHat()
 
